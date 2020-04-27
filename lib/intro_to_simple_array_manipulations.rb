@@ -20,3 +20,8 @@ end
 def using_pop(a)
   a.pop()
 end
+
+def pop_with_args(a)
+  a.pop(-1)
+  a.pop(-1)
+end
