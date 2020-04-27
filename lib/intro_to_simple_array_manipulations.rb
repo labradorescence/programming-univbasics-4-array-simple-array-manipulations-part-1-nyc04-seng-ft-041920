@@ -35,5 +35,4 @@ end
 ##
 def shift_with_args(a)
   first2 = a.shift(2)
-  puts first2
 end
