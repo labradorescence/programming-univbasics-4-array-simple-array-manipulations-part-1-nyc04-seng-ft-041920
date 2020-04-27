@@ -24,7 +24,7 @@ end
 
 ##
 def pop_with_args(a)
-  a.pop(0..-2)
+  a.pop(a[0..-2])
 end
 
 def using_shift(a)
