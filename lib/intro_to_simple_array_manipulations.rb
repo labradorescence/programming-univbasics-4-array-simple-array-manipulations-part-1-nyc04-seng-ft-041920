@@ -22,10 +22,14 @@ def using_pop(a)
 end
 
 def pop_with_args(a)
-  a.pop(-1, -2)
+  a.pop(a[-1], a[-2])
 end
 
 def using_shift(a)
   shifted = a.shift()
 return shifted
 end
+
+def shift_with_args(a)
+  first2 = a.shift(a[0], a[1])
+  return first2
