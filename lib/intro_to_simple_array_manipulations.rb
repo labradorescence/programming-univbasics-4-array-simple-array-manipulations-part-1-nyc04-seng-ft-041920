@@ -16,3 +16,7 @@ end
 def using_unshift (a,b)
   a.unshift(b)
 end
+
+def using_pop(a)
+  a.pop()
+end
