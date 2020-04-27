@@ -28,5 +28,5 @@ end
 
 def using_shift(a)
   shifted = a.shift()
-puts shifted
+return shifted
 end
