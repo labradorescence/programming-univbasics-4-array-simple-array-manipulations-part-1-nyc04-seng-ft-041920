@@ -33,3 +33,4 @@ end
 def shift_with_args(a)
   first2 = a.shift(a[0], a[1])
   return first2
+end
