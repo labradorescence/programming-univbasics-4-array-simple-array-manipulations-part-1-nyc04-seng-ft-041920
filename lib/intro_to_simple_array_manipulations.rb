@@ -24,7 +24,7 @@ end
 
 ##
 def pop_with_args(a)
-  a.pop(a[0..-3])
+  a.pop(2)
 end
 
 def using_shift(a)
@@ -34,6 +34,6 @@ end
 
 ##
 def shift_with_args(a)
-  first2 = a.shift(a[0], a[1])
+  first2 = a.shift(2)
   puts first2
 end
